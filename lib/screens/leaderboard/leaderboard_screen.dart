@@ -26,7 +26,7 @@ class _LeaderboardScreenState extends State<LeaderboardScreen> {
       leaderboard = [
         {"name": "Delight", "points": 120},
         {"name": "Nothando", "points": 110},
-        {"name": "Tabani", "points": 100},
+        {"name": "Tabani", "points": 101},
       ];
       isLoading = false;
     });
