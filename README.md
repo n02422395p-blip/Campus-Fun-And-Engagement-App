@@ -28,6 +28,7 @@ The goal of this project is to promote student engagement, encourage healthy com
 
 ```
 nust_fun_engagement/
+<<<<<<< Updated upstream
 ├── lib/
 │   ├── main.dart
 │   ├── models/
@@ -56,6 +57,90 @@ nust_fun_engagement/
 ├── BACKEND_INTEGRATION.md
 └── README.md
 ```
+=======
+ ├── lib/
+ │    ├── main.dart
+ │    ├── models/
+ │    ├── screens/
+ │    │    ├── auth/
+ │    │    ├── trivia/
+ │    │    ├── fitness/
+ │    │    ├── leaderboard/
+ │    │    └── profile/
+ │    ├── services/
+ │    ├── widgets/
+ │    └── providers/
+ │
+ ├── backend/
+ │    └── db.json
+
+
+
+## 🏁 Getting Started
+
+### Prerequisites
+
+- Flutter SDK installed
+- Node.js installed (for JSON Server)
+- VS Code or preferred IDE
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/nust-fun-engagement.git
+   cd nust-fun-engagement
+   ```
+
+2. Install Flutter dependencies:
+   ```bash
+   flutter pub get
+   ```
+
+3. Start the backend server:
+   ```bash
+   cd backend
+   npx json-server --watch db.json --port 3000
+   ```
+
+4. Run the Flutter app:
+   ```bash
+   flutter run -d chrome
+   ```
+
+### Usage
+
+- Register a new account or login with existing credentials
+- Navigate through trivia, fitness, leaderboard, and profile sections
+- Earn points by completing challenges and quizzes
+- View your ranking on the leaderboard
+
+## 👥 Team Responsibilities
+
+- **Delight**: Project Manager, Leaderboard & Profile UI
+- **Tapiwanashe & Gamuchirai**: UI/UX Designers
+- **Nothando**: Frontend (Auth & Navigation)
+- **Tabani**: Frontend (Trivia)
+- **Tanaka**: Frontend (Fitness)
+- **Laura**: Profile UI Support
+- **Tanatswa**: Backend (Authentication)
+- **Rakim**: Backend (Database & API)
+- **Emmanuel**: Integration
+
+## 📅 Project Timeline
+
+- **Week 1**: Setup & UI/UX Design
+- **Week 2**: Backend Setup & Authentication
+- **Week 3-4**: Core Feature Development
+- **Week 5**: Integration & Testing
+- **Week 6**: Final Polish & Demo
+ │
+ ├── pubspec.yaml
+ └── README.md
+
+
+
+>>>>>>> Stashed changes
 
 ## ⚙️ Setup Instructions
 
