@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # nust_fun_engagement
 
 A new Flutter project.
@@ -15,3 +16,8 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# NUST Fun Module - UI/UX Design Portfolio
+## Designer: Tapiwanashe
+## Date: Mon May  4 18:42:27 SAST 2026
+>>>>>>> 4be5677786f23d3aba057c83827096b6f57dd4e6
