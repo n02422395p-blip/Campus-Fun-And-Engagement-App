@@ -1,23 +1,100 @@
-<<<<<<< HEAD
-# nust_fun_engagement
+# 🎉 NUST Fun & Engagement App
 
-A new Flutter project.
+ ## 📖 Description
 
-## Getting Started
+The **NUST Fun & Engagement App** is a mobile application developed using Flutter, designed to enhance student interaction and participation through engaging and interactive features. The app provides a centralized platform where users can take part in activities such as trivia challenges and leaderboard competitions.
 
-This project is a starting point for a Flutter application.
+The goal of this project is to promote student engagement, encourage healthy competition, and provide a fun digital environment within the university community.
 
-A few resources to get you started if this is your first Flutter project:
+**Status**: ✅ All features fully connected to backend APIs!
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## 🚀 Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# NUST Fun Module - UI/UX Design Portfolio
-## Designer: Tapiwanashe
-## Date: Mon May  4 18:42:27 SAST 2026
->>>>>>> 4be5677786f23d3aba057c83827096b6f57dd4e6
+* 🧠 **Trivia Challenges** - Connected to backend
+* 🏆 **Leaderboard System** - Real-time rankings
+* 👤 **User Profile Management** - Create and edit profiles
+* 🔔 **Notifications** (Planned)
+
+## 🛠️ Technologies Used
+
+* **Flutter** – Frontend mobile development framework
+* **Dart** – Programming language
+* **Provider** – State management
+* **HTTP** – API communication
+* **JSON Server** – Backend REST API
+* **Git & GitHub** – Version control
+
+## 📂 Project Structure
+
+```
+nust_fun_engagement/
+├── lib/
+│   ├── main.dart
+│   ├── models/
+│   │   ├── trivia_model.dart
+│   │   ├── leaderboard_model.dart
+│   │   └── user_model.dart
+│   ├── screens/
+│   │   ├── trivia/
+│   │   │   └── trivia_screen.dart
+│   │   ├── leaderboard/
+│   │   │   └── leaderboard_screen.dart
+│   │   └── profile/
+│   │       └── profile_screen.dart
+│   ├── services/
+│   │   └── api_service.dart
+│   ├── providers/
+│   │   ├── trivia_provider.dart
+│   │   ├── leaderboard_provider.dart
+│   │   └── profile_provider.dart
+│   └── widgets/
+│
+├── backend/
+│   └── db.json
+│
+├── pubspec.yaml
+├── BACKEND_INTEGRATION.md
+└── README.md
+```
+
+## ⚙️ Setup Instructions
+
+### Prerequisites
+- Flutter SDK (3.0+)
+- Dart SDK
+- Node.js (for JSON Server)
+- Git
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/n02422395p-blip/Campus-Fun-And-Engagement-App
+cd Campus-Fun-And-Engagement-App
+```
+
+### 2. Install Flutter Dependencies
+
+```bash
+cd nust_fun_engagement
+flutter pub get
+```
+
+### 3. Install and Run Backend
+
+```bash
+# Install JSON Server globally (if not already)
+npm install -g json-server
+
+# From the project root directory
+json-server --watch backend/db.json --port 3000
+```
+
+The backend will be available at `http://localhost:3000`
+
+### 4. Run the Application
+
+In a new terminal:
+
+```bash
+# From nust_fun_engagement directory
+flutter run

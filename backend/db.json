@@ -1,7 +1,134 @@
 {
   "users": [
-    { "id": 1, "name": "Delight", "points": 120 },
-    { "id": 2, "name": "Nothando", "points": 110 },
-    { "id": 3, "name": "Tabani", "points": 100 }
+    {
+      "id": 1,
+      "name": "Ahmed Ali",
+      "email": "ahmed@nust.edu.pk",
+      "studentId": "N02422395",
+      "department": "Computer Science",
+      "avatar": "https://i.pravatar.cc/150?img=1",
+      "bio": "Passionate about technology and learning",
+      "joinDate": "2024-01-15"
+    },
+    {
+      "id": 2,
+      "name": "Fatima Khan",
+      "email": "fatima@nust.edu.pk",
+      "studentId": "N02422396",
+      "department": "Engineering",
+      "avatar": "https://i.pravatar.cc/150?img=2",
+      "bio": "Love competitive games",
+      "joinDate": "2024-01-16"
+    },
+    {
+      "id": 3,
+      "name": "Hassan Malik",
+      "email": "hassan@nust.edu.pk",
+      "studentId": "N02422397",
+      "department": "Management Sciences",
+      "avatar": "https://i.pravatar.cc/150?img=3",
+      "bio": "Fun and engagement enthusiast",
+      "joinDate": "2024-01-17"
+    }
+  ],
+  "trivia": [
+    {
+      "id": 1,
+      "question": "What is the capital of Pakistan?",
+      "options": ["Karachi", "Lahore", "Islamabad", "Peshawar"],
+      "correctAnswer": "Islamabad",
+      "difficulty": "easy",
+      "category": "Geography"
+    },
+    {
+      "id": 2,
+      "question": "What is the chemical symbol for Gold?",
+      "options": ["Gd", "Au", "Ag", "Go"],
+      "correctAnswer": "Au",
+      "difficulty": "easy",
+      "category": "Science"
+    },
+    {
+      "id": 3,
+      "question": "In which year did the Titanic sink?",
+      "options": ["1912", "1915", "1920", "1905"],
+      "correctAnswer": "1912",
+      "difficulty": "easy",
+      "category": "History"
+    },
+    {
+      "id": 4,
+      "question": "What is the largest planet in our solar system?",
+      "options": ["Saturn", "Neptune", "Jupiter", "Venus"],
+      "correctAnswer": "Jupiter",
+      "difficulty": "easy",
+      "category": "Science"
+    },
+    {
+      "id": 5,
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "options": ["Mark Twain", "William Shakespeare", "Jane Austen", "Charles Dickens"],
+      "correctAnswer": "William Shakespeare",
+      "difficulty": "easy",
+      "category": "Literature"
+    }
+  ],
+  "leaderboard": [
+    {
+      "id": 1,
+      "userId": 1,
+      "userName": "Ahmed Ali",
+      "score": 4500,
+      "rank": 1,
+      "totalQuestions": 45,
+      "correctAnswers": 42,
+      "lastUpdated": "2024-05-04T10:30:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "userName": "Fatima Khan",
+      "score": 4200,
+      "rank": 2,
+      "totalQuestions": 42,
+      "correctAnswers": 39,
+      "lastUpdated": "2024-05-04T09:15:00Z"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "userName": "Hassan Malik",
+      "score": 3800,
+      "rank": 3,
+      "totalQuestions": 38,
+      "correctAnswers": 35,
+      "lastUpdated": "2024-05-04T08:45:00Z"
+    }
+  ],
+  "userScores": [
+    {
+      "id": 1,
+      "userId": 1,
+      "triviaId": 1,
+      "isCorrect": true,
+      "points": 100,
+      "timestamp": "2024-05-04T10:15:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "triviaId": 2,
+      "isCorrect": true,
+      "points": 100,
+      "timestamp": "2024-05-04T10:20:00Z"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "triviaId": 1,
+      "isCorrect": true,
+      "points": 100,
+      "timestamp": "2024-05-04T09:10:00Z"
+    }
   ]
 }
