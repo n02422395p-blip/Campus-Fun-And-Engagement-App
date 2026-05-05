@@ -1,0 +1,7 @@
+{
+  "users": [
+    { "id": 1, "name": "Delight", "points": 120 },
+    { "id": 2, "name": "Nothando", "points": 110 },
+    { "id": 3, "name": "Tabani", "points": 100 }
+  ]
+}
