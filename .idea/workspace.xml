@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91130836-1ff3-42f3-a6fd-981f91876eb2" name="Changes" comment="" />
+    <list default="true" id="91130836-1ff3-42f3-a6fd-981f91876eb2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/nust_fun_engagement" beforeDir="false" afterPath="$PROJECT_DIR$/nust_fun_engagement" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nust_fun_engagement/lib/screens/leaderboard/leaderboard_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/nust_fun_engagement/lib/screens/leaderboard/leaderboard_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nust_fun_engagement/linux/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/nust_fun_engagement/linux/flutter/generated_plugin_registrant.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nust_fun_engagement/linux/flutter/generated_plugin_registrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/nust_fun_engagement/linux/flutter/generated_plugin_registrant.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nust_fun_engagement/linux/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/nust_fun_engagement/linux/flutter/generated_plugins.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nust_fun_engagement/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/nust_fun_engagement/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nust_fun_engagement/windows/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/nust_fun_engagement/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nust_fun_engagement/windows/flutter/generated_plugin_registrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/nust_fun_engagement/windows/flutter/generated_plugin_registrant.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nust_fun_engagement/windows/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/nust_fun_engagement/windows/flutter/generated_plugins.cmake" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +43,7 @@
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "feature/auth-screens",
+    "git-widget-placeholder": "feature/trivia-ui",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "vcs.Git"
   }
