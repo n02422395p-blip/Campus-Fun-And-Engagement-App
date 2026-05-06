@@ -43,6 +43,7 @@
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "feature/trivia-ui",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "vcs.Git"
@@ -57,5 +58,32 @@
       <updated>1777927606668</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="37069100-93d0-499f-b7da-1ae70961bb13" value="TOOL_WINDOW" />
+        <entry key="f4274dd5-5851-4892-a3ec-e68f8f2a7ea2" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="37069100-93d0-499f-b7da-1ae70961bb13">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="f4274dd5-5851-4892-a3ec-e68f8f2a7ea2">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
